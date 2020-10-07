@@ -23,6 +23,23 @@ header {
   color: white;
 }
 
+.myform {
+  background-color: white;
+  color: black;
+  border-radius: 5px;
+}
+
+.input-group-btn {
+  display: block;
+  width: 100%;
+}
+
+.input-group-btn .btn-default {
+  width: 100%;
+}
+
+
+
 
 
 
