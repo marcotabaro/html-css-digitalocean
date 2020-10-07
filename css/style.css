@@ -41,12 +41,18 @@ header {
   width: 100%;
 }
 
+/* /////////////////////////// */
+/* CUSTOMER SECTION */
+
 #customers img {
   max-width: 100%;
   max-height: 100%;
-  line-height: 100px;
 }
 
+#customers [class*="col-"] {
+  height: 100px;
+  line-height: 100px;
+}
 
 
 
