@@ -1,7 +1,8 @@
 /* DEBUG */
 
-.debug .container [class*="col-"] {
+.debug  [class*="col-"] {
   border: 3px solid black;
+  height: 100px;
 }
 
 body {
@@ -69,4 +70,8 @@ header {
 
 #customers {
   background-color: #F3F5F9;
+}
+
+#functions {
+  background-color: white;
 }
