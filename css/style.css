@@ -1,5 +1,35 @@
 /* DEBUG */
 
-.debug {
-  border: 1px solid black;
+.debug .container [class*="col-"] {
+  border: 3px solid black;
+}
+
+/* HEADER */
+
+.navbar-brand img {
+  width: 150px;
+}
+
+.navbar-nav {
+  float: right;
+}
+
+header {
+  background-image: url("https://www.digitalocean.com/static/bg-home-hero-3-bb4b33b77274db09b969f629ad81c4d5.svg");
+}
+
+.jumbotron {
+  background-color: transparent;
+  color: white;
+}
+
+
+
+
+
+/* BACKGROUND  */
+
+.navbar {
+  background-color: white;
+  color: black;
 }
