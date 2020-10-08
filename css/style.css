@@ -145,16 +145,19 @@ header {
   font-size: 2rem;
 }
 
-.bg-screenshot {
-  background-image: url(../img/screenshot.jpg);
-  width: 600px;
-  height: 400px;
-  margin-top: 50px;
+.bg-screenshot img {
+  max-width: 100%;
 }
 
-#developers .btn {
+.centered {
+  position: absolute;
+  top: 50%;
+}
+
+.centered button {
+  background-color: transparent;
+  border: none;
   font-size: 3rem;
-  line-height: 100%;
 }
 
 /* ////////////////////// */
