@@ -183,7 +183,20 @@ header {
 #features p {
   color: #919aae;
 }
+/* //////////////////////// */
+/* REGIONS SECTION */
 
+.initial {
+  font-size: 13px;
+  width: 80px;
+  margin-left: 10px;
+}
+.country {
+  font-size: 13px;
+  text-align: left;
+  margin-left: 0px;
+  width: 350px;
+}
 
 
 /* ////////////////////// */
