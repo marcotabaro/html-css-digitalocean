@@ -150,8 +150,8 @@ header {
 }
 
 .centered {
-  position: absolute;
-  top: 50%;
+  position: relative;
+  top: 220px;
 }
 
 .centered button {
