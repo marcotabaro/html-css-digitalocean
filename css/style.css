@@ -186,16 +186,32 @@ header {
 /* //////////////////////// */
 /* REGIONS SECTION */
 
+#regions h1 {
+  font-weight: 700;
+  margin-top: 50px;
+}
+.regions-ul {
+  list-style-type: none;
+}
+
+.regions-ul li {
+  border-bottom: 1px solid white;
+  padding-bottom: 10px;
+}
 .initial {
+  float: left;
   font-size: 13px;
   width: 80px;
   margin-left: 10px;
 }
 .country {
   font-size: 13px;
-  text-align: left;
   margin-left: 0px;
   width: 350px;
+}
+
+.speed-test {
+  float: right;
 }
 
 
