@@ -247,3 +247,7 @@ header {
 #developers {
   background-color: #f3f5f9;
 }
+
+#regions {
+  background: #031b4e url(https://prismic-io.s3.amazonaws.com/www-static/bb563ec9-49ef-4ceb-8468-da84f1509fcc_bg-map-solid.svg);
+}
