@@ -5,9 +5,8 @@
   height: 100px;
 }
 
-body {
-  font-family: "Sailec-Light";
-}
+@font-face {font-family: "Sailec-RegularItalic"; src: url("//db.onlinewebfonts.com/t/b01b6fd24ac0bfabd0861e4784a8b7d2.eot"); src: url("//db.onlinewebfonts.com/t/b01b6fd24ac0bfabd0861e4784a8b7d2.eot?#iefix") format("embedded-opentype"), url("//db.onlinewebfonts.com/t/b01b6fd24ac0bfabd0861e4784a8b7d2.woff2") format("woff2"), url("//db.onlinewebfonts.com/t/b01b6fd24ac0bfabd0861e4784a8b7d2.woff") format("woff"), url("//db.onlinewebfonts.com/t/b01b6fd24ac0bfabd0861e4784a8b7d2.ttf") format("truetype"), url("//db.onlinewebfonts.com/t/b01b6fd24ac0bfabd0861e4784a8b7d2.svg#Sailec-RegularItalic") format("svg"); }
+
 /* HEADER */
 
 .navbar-brand img {
@@ -16,6 +15,11 @@ body {
 
 .navbar-nav {
   float: right;
+}
+
+.navbar-nav li {
+  color: black;
+
 }
 
 header {
@@ -27,10 +31,24 @@ header {
   color: white;
 }
 
+.jumbotron h1 {
+  font-weight: bold;
+  font-size: 7rem;
+}
+
+.jumbotron p {
+  color: #b9cafc;
+}
+
 .myform {
   background-color: white;
-  color: black;
+  color: #031c4e;
   border-radius: 5px;
+}
+
+.myform h2 {
+  font-size: 2.5rem;
+  font-weight: 600;
 }
 
 .input-group-btn {
@@ -42,6 +60,15 @@ header {
   width: 100%;
 }
 
+.google {
+  width: 20px;
+  float: left;
+}
+
+.navbar-btn {
+  color: #579aff;
+  border-color: #579aff;
+}
 /* /////////////////////////// */
 /* CUSTOMER SECTION */
 
@@ -57,12 +84,64 @@ header {
 
 /* ///////////////////// */
 /* FUNCTION SECTION */
+#functions h1 {
+  font-weight: 700;
+  color: #031c4e;
+}
+
+#functions h3 {
+  font-weight: 700;
+  color: #031c4e;
+  font-size: 2rem;
+}
+
+#functions p {
+  font-size: 1.5rem;
+  color: #5c6a88;
+}
+
+.unordered {
+  font-size: 2rem;
+  color: #5c6a88;
+}
+
+.unordered li {
+  padding-bottom: 10px;
+  padding-left: 10px;
+  list-style-type: none;
+  border-left: 2px solid #b8b9bb;
+}
+
+
+/* ////////////////////// */
+/* HELPER */
+.black-text {
+  color: black;
+}
+
+.white-text {
+  color: white;
+}
+
+.pg-all {
+  padding: 20px;
+}
+
+.margin-bottom {
+  margin-bottom: 10px;
+}
+
+.margin-bottom-50 {
+  margin-bottom: 50px;
+}
 
 
 
 
 /* BACKGROUND  */
-
+.bg-blue {
+  background-color: #579aff;
+}
 .navbar {
   background-color: white;
   color: black;
