@@ -200,7 +200,6 @@ header {
   padding-bottom: 10px;
 }
 
-.regions-ul:not:last-child
 .initial {
   float: left;
   font-size: 13px;
@@ -286,4 +285,8 @@ header {
 
 #feedback {
   background-color: #f3f5f9;
+}
+
+#get-started {
+  background-color: #0033ae;
 }
