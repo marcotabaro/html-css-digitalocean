@@ -192,12 +192,15 @@ header {
 }
 .regions-ul {
   list-style-type: none;
+  margin-bottom: 50px;
 }
 
-.regions-ul li {
+.regions-ul li:not(:last-child) {
   border-bottom: 1px solid white;
   padding-bottom: 10px;
 }
+
+.regions-ul:not:last-child
 .initial {
   float: left;
   font-size: 13px;
@@ -279,4 +282,8 @@ header {
 
 #regions {
   background: #031b4e url(https://prismic-io.s3.amazonaws.com/www-static/bb563ec9-49ef-4ceb-8468-da84f1509fcc_bg-map-solid.svg);
+}
+
+#feedback {
+  background-color: #f3f5f9;
 }
