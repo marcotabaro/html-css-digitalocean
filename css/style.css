@@ -243,6 +243,28 @@ header {
   border-radius: 5%;
 
 }
+
+/* //////////////////////// */
+/* FOOTER */
+footer ul {
+  list-style-type: none;
+}
+
+footer .title {
+  font-weight: bold;
+  color: white;
+}
+
+.text-grey {
+  color: #7A859D;
+}
+
+footer i {
+  padding-right: 10px;
+}
+
+
+
 /* HELPER */
 .black-text {
   color: black;
