@@ -90,6 +90,13 @@ header {
   color: #579aff;
   border-color: #579aff;
 }
+
+.hamburger {
+  line-height: 50px;
+  border: none;
+  background-color: white;
+  color: lightblue;
+}
 /* /////////////////////////// */
 /* CUSTOMER SECTION */
 
@@ -312,9 +319,6 @@ footer i {
 .relative {
   position: relative;
 }
-
-
-
 
 
 /* BACKGROUND  */
