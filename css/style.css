@@ -5,7 +5,27 @@
   height: 100px;
 }
 
-@font-face {font-family: "Sailec-RegularItalic"; src: url("//db.onlinewebfonts.com/t/b01b6fd24ac0bfabd0861e4784a8b7d2.eot"); src: url("//db.onlinewebfonts.com/t/b01b6fd24ac0bfabd0861e4784a8b7d2.eot?#iefix") format("embedded-opentype"), url("//db.onlinewebfonts.com/t/b01b6fd24ac0bfabd0861e4784a8b7d2.woff2") format("woff2"), url("//db.onlinewebfonts.com/t/b01b6fd24ac0bfabd0861e4784a8b7d2.woff") format("woff"), url("//db.onlinewebfonts.com/t/b01b6fd24ac0bfabd0861e4784a8b7d2.ttf") format("truetype"), url("//db.onlinewebfonts.com/t/b01b6fd24ac0bfabd0861e4784a8b7d2.svg#Sailec-RegularItalic") format("svg"); }
+@font-face {
+    font-family: "SailecLight";
+    src: url("../font/SailecLight.woff") format('woff');
+}
+@font-face {
+    font-family: "SailecLightItalic";
+    src: url("../font/SailecLightItalic.woff") format('woff');
+    font-style: italic;
+}@font-face {
+    font-family: "SailecMedium";
+    src: url("../font/SailecMedium.woff") format('woff');
+    font-weight: bold;
+}@font-face {
+    font-family: "SailecRegular";
+    src: url("../font/SailecRegular.woff") format('woff');
+}
+@font-face {
+    font-family: "SailecBold";
+    src: url("../font/SailecBold.woff") format('woff');
+    font-style:normal;
+}
 
 /* HEADER */
 
@@ -218,6 +238,11 @@ header {
 
 
 /* ////////////////////// */
+/* GET STARTED SECTION */
+#get-started button {
+  border-radius: 5%;
+
+}
 /* HELPER */
 .black-text {
   color: black;
@@ -226,6 +251,10 @@ header {
 .white-text {
   color: white;
 }
+
+.blue-text {
+  color: blue;
+}
 .pg-top {
   padding-top: 40px;
 }
@@ -233,8 +262,16 @@ header {
   padding: 20px;
 }
 
+.pg-10 {
+  padding: 10px;
+}
+
 .margin-bottom {
   margin-bottom: 10px;
+}
+
+.margin-bottom-20 {
+  margin-bottom: 20px;
 }
 
 .margin-bottom-50 {
